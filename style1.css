@@ -1,0 +1,77 @@
+        body {
+			background-color:black;
+            font-family: verdana;
+            border: 1px solid black;
+            }
+       
+
+        aside  {
+            float:left;
+            text-align: left;
+            background-color: yellow; 
+            height: 250px;
+            width: 200px;
+            padding-top: 8px;  
+            }
+
+
+        
+
+        aside ul li a { color: black;
+
+        }
+		
+        article {
+			float:left;
+            background: url('../pemweb/BACKGROUND.jpg');
+            border-right: 1px solid white;
+            padding: 1em;
+            background-color: white;
+            height:1000px;
+			width:1260px;
+            text-align: justify;
+          }
+
+
+
+        a:hover:not(.active){
+            background-color: green;
+            padding: 16px;
+            font-size: 22px;
+          }
+        
+        ul {
+
+            margin: 0;
+            padding: 0;
+			height:500px
+            width: 200px;
+          }
+        li a {
+            display: block;   
+            }
+       
+      
+form {
+    width:500px;
+    margin:50px auto;
+}
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #53bd84;
+    background-color:#53bd84;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+
